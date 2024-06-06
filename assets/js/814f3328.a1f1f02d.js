@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfraternidade_website=self.webpackChunkfraternidade_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Boas vindas!","permalink":"/website/blog/boas-vindas","unlisted":false}]}')}}]);
