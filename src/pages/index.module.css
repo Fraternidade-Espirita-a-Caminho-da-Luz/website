@@ -39,5 +39,6 @@
 
   .homepage__main{
     background-size: cover;
+    min-height: 30vh
   }
 }
