@@ -8,16 +8,36 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-}
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+  display: flex;
+  justify-content: center;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container{
+  max-width: 1200px;
+}
+
+.homepage__main{
+  background-image: url(https://scontent.fsdu7-1.fna.fbcdn.net/v/t39.30808-6/414889285_749052933925763_2298774508964235927_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGlFBLV8CoBeD9hIklxLKCqfHQh1JDqFrx8dCHUkOoWvNzlkPC03Gn8K-9AbhNIZuP6I8optmBeGmov5e4e8MZq&_nc_ohc=hp6nO2F139wQ7kNvgFO-SJ8&_nc_ht=scontent.fsdu7-1.fna&oh=00_AYAJ62Nrf-qYAdLJsC9iN2HlM4eu3KZmfsYGkQn29ycz3w&oe=6667EA2D);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: var(--baby-blue);
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  .homepage__main{
+    background-size: cover;
+  }
 }
